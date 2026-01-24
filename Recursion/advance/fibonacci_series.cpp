@@ -3,9 +3,13 @@ using namespace std;
 
 int f(int n)
 {
-    if(n<=1)
+    if(n==1)
     {
-        return n;
+        return 0;
+    }
+    if(n==2)
+    {
+        return 1;
     }
     int first=f(n-1);
     int second=f(n-2);

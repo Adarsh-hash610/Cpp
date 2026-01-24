@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-    stack<string>s;
-    s.push("Adarsh");
-    s.push("Samriddhi");
-    s.push("Pandey");
+    stack<int>s;
+    s.push(2);
+    s.push(4);
+    s.push(6);
 
     cout << "top element: "<<s.top()<<endl;
     s.pop();
